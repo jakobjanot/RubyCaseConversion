@@ -69,7 +69,7 @@ def toggle_case(word):
     if (pascalcase):
         return to_snake_case(word)
     elif (snakecase):
-        return to_camel_case(word)
+        return to_pascal_case(word)
     elif (camelcase):
         return to_snake_case(word)
     else:
